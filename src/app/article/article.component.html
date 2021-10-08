@@ -1,0 +1,30 @@
+<div class = "wrapper">
+	<div class = "vote_box">
+		<div class = "stats">
+			{{ article.votes }}
+		</div>
+		<div class = "label">
+			Points
+		</div>
+	</div>
+	<div class = "info">
+		<a href="{{ article.link }}">
+			{{ article.title }}
+		</a>
+		<div class = "links">({{article.domain()}})</div>
+		<ul>
+			<li>
+				<a href (click)="voteUp()">
+					<img src = "../assets/images/uparrow.png">
+					upvote
+				</a>
+			</li>
+			<li>
+				<a href (click)="voteDown()">	
+					<img src = "../assets/images/downarrow.png">
+					downvote
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>

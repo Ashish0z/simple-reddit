@@ -1,0 +1,68 @@
+.wrapper {
+	width: 45em;
+	margin: 1em;
+	padding: 1em;
+	display: flex;
+	flex-direction: row;
+	align-items: left;
+}
+
+.vote_box {
+	height: 6em;
+	width: 6em;
+	background-color: #ddd;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 0.6em;
+	border-radius: 0.5em;
+}
+
+.stats {
+	font-family: monospace;
+	font-size: 2.7em;
+	text-align: center;
+	margin-bottom: 0.1em;
+	font-weight: bold;
+}
+
+.label {
+	text-align: center;
+}
+
+.info {
+	padding: 0.5em;
+}
+
+.info ul {
+	padding-left: 0em;
+}
+
+.info li {
+	display: inline;
+	list-style-type: none;
+	margin-left: 1.5em;
+}
+
+.info img {
+	width: 0.75em;
+	height: 0.75em;
+}
+
+.info a {
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #000;
+	font-weight: bold;
+}
+
+.info li a {
+	font-size: 0.75em; 
+	color: #397bbf;
+}
+
+.links {
+	color: rgba(0,0,0,0.5);
+	font-size: 0.7em;
+	margin-top: 0.7em;
+}
